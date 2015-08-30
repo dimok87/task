@@ -1,0 +1,23 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimok87/task.git"
+  },
+  "author": "Dmitry Lesnoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimok87/task/issues"
+  },
+  "homepage": "https://github.com/dimok87/task",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-connect": "^0.2.0"
+  }
+}
