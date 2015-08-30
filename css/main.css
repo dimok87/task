@@ -1,0 +1,60 @@
+body {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 12px;
+	color: #555;
+}
+
+p {
+	margin: 0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 714px;
+}
+
+#movies-placeholder .movies-description {
+	margin: 20px 0px 0px 25px;
+}
+
+#movies-placeholder .movies-description .movies-title {
+	font-size: 16px;
+}
+
+#movies-placeholder .movies-description .movies-info {
+	margin-top: 20px;
+}
+
+#movies {
+	margin-top: 50px;
+}
+
+#movies-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+#movies-list .movies-item {
+	float: left;
+	margin-left: 50px;
+}
+
+#movies-list .movies-item:first-child {
+	margin-left: 0px;
+}
+
+#movies-list .movies-item img {
+	-moz-box-shadow: 1px 2px 5px 3px #cecece;
+	-webkit-box-shadow: 1px 2px 5px 3px #cecece;
+	box-shadow: 1px 2px 5px 3px #cecece;
+}
+
+#movies-list .movies-item .movies-item-info {
+	margin: 10px;
+}
+
+#movies-list .movies-item .movies-item-year {
+	margin-top: 5px;
+}
