@@ -1,4 +1,4 @@
-<p>For runing this application install node modules by:</p>
+<p>For runing this application install node modules (your current working directory should be the same where Gruntfile.js is located):</p>
 <i>npm install</i>
 <p>After that run:</p>
 <i>grunt</i>
