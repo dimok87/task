@@ -38,7 +38,14 @@ p {
 
 #movies-list .movies-item {
 	float: left;
-	margin-left: 50px;
+	margin-left: 44px;
+}
+
+#movies-list li.selected img {
+	border: 2px solid #009ACD;
+	-webkit-border-radius: 4px; 
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
 }
 
 #movies-list .movies-item:first-child {
@@ -46,9 +53,10 @@ p {
 }
 
 #movies-list .movies-item img {
-	-moz-box-shadow: 1px 2px 5px 3px #cecece;
-	-webkit-box-shadow: 1px 2px 5px 3px #cecece;
-	box-shadow: 1px 2px 5px 3px #cecece;
+	border: 2px solid #cecece;
+	-moz-box-shadow: 1px 2px 5px 1px #cecece;
+	-webkit-box-shadow: 1px 2px 5px 1px #cecece;
+	box-shadow: 1px 2px 5px 1px #cecece;
 }
 
 #movies-list .movies-item .movies-item-info {

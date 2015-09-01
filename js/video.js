@@ -3,8 +3,7 @@ var APP = APP || {};
   * Main application component
   */
 APP.Video = (function() {
-    var _movies = [],
-        _url = 'data/movies.json';
+    var _movies = [];
     return {
         /**
           * Entry point of Application
@@ -12,7 +11,7 @@ APP.Video = (function() {
           */
         init: function() {
             // sending ajax request for movies list
-            APP.Helpers.get(_url, function(xhr) {
+            APP.Helpers.get(APP.Config.dataUrl, function(xhr) {
                 _movies = JSON.parse(xhr.responseText);
                 if (!_movies || _movies.length === 0) {
                     throw {
